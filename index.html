@@ -7,15 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./img/Ico-Window.png">
+    <link rel="shortcut icon" href="./img/logos/Ico-Window.png">
     <title>Práctica Bootstrap 4</title>
   </head>
   <body>
     <div class="container-fluid">
+      <!-- Barra de navegación -->
       <nav style="background-color: #cc0000;" class="navbar navbar-expand-lg navbar-dark">        
         <div class="container">
           <a href="">
-            <img class="d-sm-block d-md-none d-flex" src="./img/Marca-Claro.png" style="height: 50px;">
+            <img class="d-sm-block d-md-none d-flex" src="./img/logos/Marca-Claro.png" style="height: 50px;">
           </a>                 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -59,47 +60,65 @@
             </ul>
           </div>
         </div>
-      </nav>
-
-    <!-- Cards -->
-    <div class=" border-top border-bottom border-dark pt-4 pb-4 mt-3">
-      <div class="card border-0" style="width: 100%;">
-        <img class="card-img-top" src="./img/marca-card1.webp" alt="Card image cap">
-        <div class="card-body p-0">
-          <p class="card-subtitle text-danger font-weight-bold pt-3" style="font-size: 80%;">ABIERTO MEXICANO</p>
-          <p class="card-text " style="font-size: 150%; font-weight:950;line-height:normal">El 1 y 2 del ranking ATP, confirmados para el Abierto Mexicano de Tenis 2023</p>
+      </nav> 
+      <!-- Cards -->
+      <div class="container">
+        <!-- Noticias -->
+        <div class="row border-top border-bottom border-dark mt-5">
+          <!-- Noticia principal -->
+          <div class="col-12 col-sm-8 pb-4 mt-3 ">          
+            <div class="card border-0" style="width: 100%;">
+              <img class="card-img-top" src="./img/news/marca-card1.webp" alt="Card image cap">
+              <div class="card-body p-0">
+                <p class="card-subtitle text-danger font-weight-bold pt-3" style="font-size: 80%;">ABIERTO MEXICANO</p>
+                <p class="card-text " style="font-size: 150%; font-weight:950;line-height:normal">El 1 y 2 del ranking ATP, confirmados para el Abierto Mexicano de Tenis 2023</p>
+              </div>
+            </div>
+          </div>
+          <!-- Notas -->
+          <div class="col-12 col-sm-4 mt-3">          
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container d-flex justify-content-between">
+                <div>
+                  <p class="card-subtitle text-danger font-weight-bold" style="font-size: 80%;">NFL</p>
+                  <p class="card-text " style="font-size: 80%; font-weight:950;line-height:normal">Los Bucs toman la ventaja con gol de campo</p>
+                </div>             
+                <img class="card-img rounded float-right" src="./img/news/NFL-News.webp" alt="Responsive image" style="width: 50%;">
+              </div>
+            </div>
+          </div>
+        </div>               
+      </div>
+      <!-- Tériminos y Redes Sociales -->
+      <div class="container mt-4">
+        <div class="text-center">
+          <p><b>© Septiembre 2022 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.</b></p>
         </div>
+        <div class="info justify-content-between text-center">
+          <a href="" class="m-3">Política de cookies</a>
+          <a href="" class="m-3">Configuración de cookies</a>
+          <a href="" class="m-3">Política de privacidad</a>
+          <a href="" class="m-3">Términos y condiciones de uso</a>
+          <a href="" class="m-3">Certificado por OJD</a>
+          <a href="" class="m-3">Contacto</a>
+          <a href="" class="m-3">Publicidad</a>
+          <a href="" class="m-3">Ayuda</a>
+        </div>
+        <div class="container">              
+          <ul class="follow-us d-flex justify-content-between" style="list-style-type: none; margin: 10px auto;"> 
+            <li class="facebook-link">
+              <a href="https://www.facebook.com/marcaclaro" target="_blank"><img style ="width: 44%;" src="./img/logos/logo-fb.png"></a>
+            </li>
+            <li class="twitter-link">
+              <a href="https://twitter.com/MarcaClaro" target="_blank"><img style="width: 44%;" src="./img/logos/twitter-logo-round-1.png"></a>
+            </li>
+            <li class="rss">
+              <a href="https://www.marca.com/rss.html" target="_blank"><img style="width: 44%;" src="./img/logos/logo-RSS.png"></a>
+            </li>
+          </ul>
+        </div>      
       </div>
     </div>
-    <div class="container mt-4">
-      <div class="text-center">
-        <p><b>© Septiembre 2022 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.</b></p>
-      </div>
-      <div class="info justify-content-between text-center">
-        <a href="" class="m-3">Política de cookies</a>
-        <a href="" class="m-3">Configuración de cookies</a>
-        <a href="" class="m-3">Política de privacidad</a>
-        <a href="" class="m-3">Términos y condiciones de uso</a>
-        <a href="" class="m-3">Certificado por OJD</a>
-        <a href="" class="m-3">Contacto</a>
-        <a href="" class="m-3">Publicidad</a>
-        <a href="" class="m-3">Ayuda</a>
-      </div>
-      <div class="container">              
-        <ul class="follow-us d-flex justify-content-between" style="list-style-type: none; margin: 10px auto;"> 
-          <li class="facebook-link">
-            <a href="https://www.facebook.com/marcaclaro" target="_blank"><img style ="width: 44%;" src="./img/logo-fb.png"></a>
-          </li>
-          <li class="twitter-link">
-            <a href="https://twitter.com/MarcaClaro" target="_blank"><img style="width: 44%;" src="./img/twitter-logo-round-1.png"></a>
-          </li>
-          <li class="rss">
-            <a href="https://www.marca.com/rss.html" target="_blank"><img style="width: 44%;" src="./img/logo-RSS.png"></a>
-          </li>
-        </ul>
-      </div>      
-    </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
