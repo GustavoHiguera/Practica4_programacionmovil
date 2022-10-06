@@ -4,6 +4,18 @@
     margin-top: 15px;
 }
 
+.ver-todo {    
+    position: relative;    
+    top: 45px;
+    padding-left: 230px;
+}
+
+.ver-todo-desk {    
+    position: relative;    
+    top: 45px;
+    padding-left: 64rem;    
+}
+
 .liga-mx {
     display: flex;
     overflow-y: auto;

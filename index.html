@@ -17,14 +17,21 @@
       <nav style="background-color: #cc0000;" class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a href="">
-            <img class="d-sm-block d-md-none d-flex" src="./img/logos/Marca-Claro.png" style="height: 50px;">
+            <img class="d-sm-none" src="./img/logos/Marca-Claro.png" style="height: 50px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <h6>Menú</h6>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto d-none d-md-block">
+              <li class="nav-item">
+                <a class="nav-link" href="#">No sé</a>
+              </li>            
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto d-sm-none">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Portada <span class="sr-only">(current)</span></a>
               </li>
@@ -62,22 +69,27 @@
           </div>
         </div>
       </nav>
-      <!-- Carrusel de partidos -->
+      <!-- Carrusel de partidos -->      
       <div class="container">
-        <div style="position: absolute; top: 105px; right: 40px;">
-          <a href="" style="background-color: #E9ECEF; padding-left: 5px;">Ver todo ></a>
+        <div class="ver-todo-desk d-none d-md-block">
+          <a href="" style="background-color: #E9ECEF;">Ver todo ></a>
         </div>
+        <div class="ver-todo d-sm-none">
+          <a href="" style="background-color: #E9ECEF;">Ver todo ></a>
+        </div>        
         <div class="games jumbotron jumbotron-fluid">
-          <div class="liga-mx">
-            <div class="Ok text-center">
-              <p>LIGA DE EXPANSION MX
-               <img src="./img/games/game1.webp">
+          <div class="liga-mx">            
+            <div class="text-center">
+              <p>
+                LIGA DE EXPANSION MX
+                <img src="./img/games/game1.webp">
               </p>
             </div>
             <img src="./img/games/game2.webp" style="margin-top: 20px;">
             <img src="./img/games/game3.webp" style="margin-top: 20px;">
-            <p class="Ok text-center"> EUROPA LEAGUE
-            <img src="./img/games/uefa1.webp">
+            <p class="text-center">
+              EUROPA LEAGUE
+              <img src="./img/games/uefa1.webp">
             </p>
             <img src="./img/games/uefa2.webp" style="margin-top: 20px;">
             <img src="./img/games/uefa3.webp" style="margin-top: 20px;">
