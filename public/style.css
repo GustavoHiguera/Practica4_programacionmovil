@@ -30,6 +30,14 @@
     max-width: 16rem;      
 }
 
+.flags {
+    max-width: 35px;
+}
+
+.icons{
+    max-width: 15px;
+}
+
 .ver-todo {    
     position: relative;    
     top: 45px;
