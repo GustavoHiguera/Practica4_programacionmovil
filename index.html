@@ -14,7 +14,7 @@
   <body>    
     <div class="container-fluid">
       <!-- Header de noticias -->
-      <div class="d-none d-md-block text-dark text-align-center txt-small bg-light pl-5">
+      <div class="d-none d-xl-block text-dark text-align-center txt-small bg-light pl-5">
         <p>
           Es noticia:
           Frente Frío 2 /
@@ -31,18 +31,22 @@
       </div>
       <!-- Row intermedia de logos y sesiones -->
       <div class="row text-dark text-align-center txt-small sponsor-container">
-        <div class="d-none d-md-block" style="padding-left: 50px;">
+        <!-- Cuidate Pus -->
+        <div class="d-none d-xl-block" style="padding-left: 50px;">
           <img class="sponsor-img" src="./img/logos/cuidateplus-logo.png">
           <a class="ml-1" href="https://cuidateplus.marca.com/">CuidatePlus</a>
-        </div>         
-        <div class="d-none d-md-block">
+        </div>
+        <!-- Lo + Trending -->         
+        <div class="d-none d-xl-block">
           <img class="sponsor-img" src="./img/logos/lo+trending-logo.png">
           <a class="ml-1" href="https://www.marca.com/claro-mx/trending.html">Lo + trending</a>
         </div>
-        <div class="d-none d-md-block" style="padding-left: 120px;">
+        <!-- Logo CLARO -->
+        <div class="d-none d-xl-block" style="padding-left: 120px;">
           <img class="claro-img" src="./img/logos/Marca-Claro-Full.png">
         </div>
-        <div class="dropdown mx-2 d-none d-md-block">
+        <!-- Botón de regiones -->
+        <div class="dropdown mx-2 d-none d-xl-block">
           <button class="btn btn-light dropdown-toggle btn-outline-dark" type="button" data-toggle="dropdown" aria-expanded="false">
             <img class="flags mb-1" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg">
             MX
@@ -119,27 +123,31 @@
                   </div>
               </form>
           </div>
-            <button type="button" class="btn btn-light btn-outline-dark text-danger mx-2">Suscríbete</button>
+            <button type="button" class="btn btn-danger btn-outline-dark text-light mx-2">Suscríbete</button>
             <button type="button" class="btn btn-light btn-outline-dark text-danger mr-2">Iniciar sesión</button>
         </div>        
       </div>
       <!-- Barra de navegación -->
       <nav style="background-color: #cc0000;" class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
+          <!-- Logo MARCA -->
           <a href="">
-            <img class="d-sm-none" src="./img/logos/Marca-Claro.png" style="height: 50px;">
+            <img class="d-lg-none" src="./img/logos/Marca-Claro.png" style="height: 50px;">
           </a>
+          <!-- Botón de acceder -->
           <button class="navbar-toggler" type="button" >
             <span class="navbar-user-icon">
               <img src="./img/logos/Icono-usuario.png" style="height: 30px;">
             </span>
             <h6>Accede</h6>
           </button>
+          <!-- Menú -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <h6>Menú</h6>
           </button>
-          <div class="collapse navbar-collapse d-none d-md-block" id="navbarText">
+          <!-- Collapse de escritorio -->
+          <div class="collapse navbar-collapse d-none d-xl-block" id="navbarText">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -190,44 +198,46 @@
               </li>
             </ul>
           </div>
+          <!-- Collapse de móvil -->
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto d-sm-none">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Portada <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Fútbol</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Fútbol internacional</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Motor</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Otros deportes</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Olímpicos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Olympic Channel</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">MARCA TV CLARO</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Streaming</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Opinión</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">Lo + trending</a>
               </li>
             </ul>
           </div>
-          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <!-- Barra de búsqueda y botones -->
+          <form class="form-inline my-2 my-lg-0 d-none d-lg-block">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Buscar en marca.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
               <div class="input-group-append">
@@ -270,7 +280,7 @@
         <!-- Sección 1 de noticias -->
         <div class="row border-top border-bottom border-dark mt-1 justify-content-between">
           <!-- Noticia principal -->
-          <div class="col-12 col-sm-8 pb-4 mt-3 border-bottom border-dark">
+          <div class="col-12 col-lg-8 pb-4 mt-3 border-bottom border-dark">
             <div class="card border-0" style="width: 100%;">
               <img class="card-img-top" src="./img/news/marca-card1.webp" alt="Card image cap">
               <div class="card-body p-0">
@@ -280,7 +290,7 @@
             </div>
           </div>
           <!-- Notas -->
-          <div class="col-12 col-sm-4 mt-3">
+          <div class="col-12 col-lg-4 mt-3">
             <!-- Nota 1 -->
             <div class="rounded jumbotron jumbotron-fluid pt-4 pb-4">
               <div class="container d-flex">
@@ -316,7 +326,7 @@
         <!-- Sección 2 de noticias -->
         <div class="row border-bottom border-dark mt-3">
           <!-- Noticia principal -->
-          <div class="col-12 col-sm-8 pb-4 mt-3 border-bottom border-dark">
+          <div class="col-12 col-lg-8 pb-4 mt-3 border-bottom border-dark">
             <div class="card border-0" style="width: 100%;">
               <img class="card-img-top" src="./img/news/davino-news.webp" alt="Card image cap">
               <div class="card-body p-0">
@@ -326,7 +336,7 @@
             </div>
           </div>
           <!-- Notas -->
-          <div class="col-12 col-sm-8 mt-3">
+          <div class="col-12 col-lg-8 mt-3">
             <!-- Nota 1 -->
             <div class="rounded jumbotron jumbotron-fluid pt-4 pb-4">
               <div class="container d-flex">
