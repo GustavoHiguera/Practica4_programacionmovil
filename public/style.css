@@ -4,6 +4,32 @@
     margin-top: 15px;
 }
 
+.txt-small {
+    font-size: 0.8em;
+}
+
+.sponsor-container div {    
+    margin-right: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.sponsor-container a {    
+    color: black; 
+    font-weight: bold;
+}
+
+.sponsor-img {
+    width: 100%;
+    max-height: 50px;
+    max-width: 50px;    
+}
+
+.claro-img {
+    max-height: 45px;
+    max-width: 16rem;      
+}
+
 .ver-todo {    
     position: relative;    
     top: 45px;
@@ -29,7 +55,7 @@
 }
 
 .liga-mx p {
-    display: table-cell;
     font-size: 13px;
     font-weight: bold;
 }
+
